@@ -1,0 +1,27 @@
+{
+  "title": "Visite Musées",
+  "config": {
+    "step": {
+      "user": {
+        "title": "Visite Musées",
+        "description": "Sélectionnez les départements à inclure dans le catalogue national Muséofile.",
+        "data": {
+          "departments": "Départements"
+        }
+      }
+    },
+    "abort": {
+      "single_instance_allowed": "Une seule configuration est autorisée."
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "Choix des départements",
+        "data": {
+          "departments": "Départements"
+        }
+      }
+    }
+  }
+}

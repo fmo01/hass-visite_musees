@@ -1,0 +1,27 @@
+{
+  "title": "Visitas a Museos",
+  "config": {
+    "step": {
+      "user": {
+        "title": "Visitas a Museos",
+        "description": "Seleccione los departamentos que desea incluir del catálogo nacional Muséofile.",
+        "data": {
+          "departments": "Departamentos"
+        }
+      }
+    },
+    "abort": {
+      "single_instance_allowed": "Solo se permite una configuración."
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "Seleccionar departamentos",
+        "data": {
+          "departments": "Departamentos"
+        }
+      }
+    }
+  }
+}

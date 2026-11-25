@@ -1,0 +1,27 @@
+{
+  "title": "Museum Visits",
+  "config": {
+    "step": {
+      "user": {
+        "title": "Museum Visits",
+        "description": "Select the departments to include in the national Muséofile catalogue.",
+        "data": {
+          "departments": "Departments"
+        }
+      }
+    },
+    "abort": {
+      "single_instance_allowed": "Only one instance can be configured."
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "Select departments",
+        "data": {
+          "departments": "Departments"
+        }
+      }
+    }
+  }
+}

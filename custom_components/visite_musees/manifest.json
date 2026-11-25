@@ -1,0 +1,13 @@
+{
+  "domain": "visite_musees",
+  "name": "Visite Musées",
+  "version": "0.1.12",
+  "documentation": "https://www.hacs.dev/docs/faq/custom_repositories/",
+  "requirements": [
+    "beautifulsoup4==4.12.3"
+  ],
+  "iot_class": "cloud_polling",
+  "integration_type": "hub",
+  "config_flow": true,
+  "codeowners": []
+}
